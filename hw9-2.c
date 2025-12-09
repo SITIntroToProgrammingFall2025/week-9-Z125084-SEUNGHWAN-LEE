@@ -21,10 +21,7 @@ int main() {
     printf("You entered\n");
     for (i = 0; i < SIZE; i++) {
         for (j = 0; j < SIZE; j++) {
-            printf("%d", arr[i][j]);
-            if (j < SIZE - 1) {
-                printf(" ");
-            }
+            printf("%d ", arr[i][j]);
         }
         printf("\n");
     }
@@ -32,10 +29,7 @@ int main() {
     printf("Output\n");
     for (i = 0; i < SIZE; i++) {
         for (j = 0; j < SIZE; j++) {
-            printf("%d", flipped_arr[i][j]);
-            if (j < SIZE - 1) {
-                printf(" ");
-            }
+            printf("%d ", flipped_arr[i][j]);
         }
         printf("\n");
     }
